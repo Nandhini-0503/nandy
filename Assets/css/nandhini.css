@@ -1,0 +1,1009 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.icon{
+    width: 100%;
+    height: 45Px;
+    color: white;
+    background-color: #111111;
+    display: flex;
+    font-size: small;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    font-family: "Karla", sans-serif;
+    font-size: 15px;
+}
+.call{
+    width: 24%;
+    height: 45px;
+    color: #999999;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.art1{
+    color: #999999;
+   text-decoration: none;
+   display: flex;
+}
+.art{
+    color:white;
+}
+.art2{
+    color: #999999;
+    display: flex;
+}
+.clr1{
+    color: #999999;
+    text-decoration: none;
+
+}
+.heart{
+    width:25%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.child{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.parent{
+    width:40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.li1:hover{
+    color: #9C6D3A;
+}
+.element{
+    width: 15%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.li1{
+    color: black;
+    text-decoration: none;
+}
+.image{
+    width:10%;
+    height: 20px;
+}
+.image2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+.top{
+    width: 30%;
+    height: 100px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://umino-demo.myshopify.com/cdn/shop/files/s1_d1.jpg?v=1682394456&width=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.image1{
+    width: 30%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 50px;
+}
+.image1 button{
+    width: 45%;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(2, 2, 2);
+    color: white;
+    border: none;
+    justify-content: start;
+}
+.p{
+    width: 100%;
+    height: 100%;
+    margin-right:10%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+.image2{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h6{
+    font-size:50px;
+}
+.image3{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+/* h5{
+    font-size: 30px;
+} 
+.h1{
+    font-size: 50px;
+} */
+.child1{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.child2{
+    height: 100px;
+    color: #111111;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image5{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.child4{
+    width:90%;
+    height: 350px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+   position: relative;
+}
+.image6{
+    width: 99%;
+    height: 520px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 auto;
+    background-color: aquamarine;  
+    margin-right: 5px;  
+}
+.child5{
+    text-decoration: none;
+    color: black;
+}
+.foot1{
+    width: 100%;
+    height: 250px;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.hen3{
+    width: 60%;
+    height: 30px;
+    display: flex;
+}
+.abi{
+    width: 99%;
+    height: 510px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 auto;
+    /* background-color: aquamarine;   */
+    margin-right: 5px;  
+}
+.abi1{
+    width: 80%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: aliceblue; */
+    
+}
+.ani1{
+    width: 20px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+    position: absolute;
+}
+.r-1{
+    width: 170%;
+    height:40%;
+    color:black;
+    background-color:white;
+    border-radius: 60% 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.r-2{
+    width: 170%;
+    height:40%;
+    background-color:white;
+    border-radius: 60% 60%;
+   color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.r-3{
+    width: 170%;
+    height:40%;
+    background-color:white;
+    border-radius: 60% 60%;
+   color: black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.abi2{
+    width: 100%;
+    height: 320px;
+    border-radius: 8px;
+}
+.abi3{
+    width: 20%;
+    height: 320px;
+    border-radius: 8px;
+    position: absolute;
+}
+.abi1:hover .abi3{
+    opacity: 0;
+    transition: 1s;
+}
+.abi4{
+    color: black;
+    text-decoration: none;
+}
+.abi5{
+    font-size: 10px;
+}
+.hen{
+    width: 99%;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 auto;
+    /* background-color: aquamarine;   */
+    margin-right: 5px;
+    position: relative;
+}
+.abi6{
+    width: 80%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: aliceblue; */
+    
+}
+.abi6:hover .abi8{
+    opacity: 0;
+    transition: 1s;
+}
+.abi7{
+    width: 100%;
+    height: 320px;
+    border-radius: 8px;
+    
+}
+.abi8{
+    width: 20%;
+    height: 320px;
+    border-radius: 8px;
+    position: absolute;
+}
+.image7{
+    width: 100%;
+    height: 70px;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child7{
+    width: 15%;
+    height:50px;
+    border-radius: 50px;
+    background-color: white;
+    border-color:grey;
+}
+.child7:hover{
+    background-color: black;
+    color: white;
+}
+.box1{
+    width:100%;
+    height:250px;
+    margin: 0 5px;
+    background-image: url(https://umino-demo.myshopify.com/cdn/shop/files/1_d1.jpg?v=1682394455);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    display: flex;
+    align-items:center;
+    justify-content:start;
+}
+.box2{
+    width:41vw;
+    height:250px;
+    margin: 0 5px;
+    background-image: url(https://umino-demo.myshopify.com/cdn/shop/files/2_1_d1.jpg?v=1682592044);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    display: flex;
+    align-items:center;
+    justify-content:start;
+}
+.child8{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    margin-left:30px;
+}
+.box1{
+    width: 95%;
+    height: 350px;
+    background-image: url(https://umino-demo.myshopify.com/cdn/shop/files/1_d1.jpg?v=1682394455);
+}
+.btn1{
+    width: 45%;
+    height:45px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.child9{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.box2{
+    width: 95%;
+    height: 350px;
+    background-image: url(https://umino-demo.myshopify.com/cdn/shop/files/2_1_d1.jpg?v=1682592044);
+}
+.btn1{
+    width: 45%;
+    height:45px;
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+}
+.n2{
+    width: 98%;
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.n3{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.p1{
+    width: 95vw;
+    height: 80vh;
+     background-image: url(https://umino-demo.myshopify.com/cdn/shop/files/3_d1.jpg?v=1682394456&width=1066);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 10px 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.p2{
+    width: 40%;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-left: 50%;
+}
+.btn2{
+    width: 40%;
+    height:45px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;   
+}
+.p3{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.p4{
+    width:30%;
+    height: 200px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* margin:10px 10px; */
+}
+.a1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.n4{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.n5{
+    width: 95%;
+    height: 320px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.ch4{
+    width:95%;
+    height: 180px;
+    border-radius: 10px;
+    position: relative;
+}
+.r-4{
+    width: 120%;
+    height:25%;
+    color:white;
+    background-color:black;
+    border-radius: 60% 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -170%;
+    left: 150px;
+}
+.ch5{
+    color: black;
+    text-decoration:none;
+    display: flex;
+    flex-direction: column;
+}
+.foot4{
+    width: 29%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.foot3{
+    width:100%;
+    height: 450px;
+    display:flex;
+    margin-top:60px;
+    justify-content: space-evenly;
+}
+.foot6{
+    width:20%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    justify-content: space-around;
+}
+
+.foot7{
+    width: 30%;
+    height: 190px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.praven{
+    width:45%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    gap: 8px;
+    border-radius: 10px;
+    
+}
+.clr2{
+    color: black;
+    text-decoration: none;
+}
+.foot8{
+    width: 100%;
+    height: 100px;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot9{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.f1{
+    width:30%;
+    height: 35px;
+}
+.b1{
+    width:18%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+    border:none;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10px;
+}
+.b1:hover{
+    background-color: black;
+    color: white;
+}
+.b2{
+    width: 20%;
+    height: 30px;
+    color: white;
+    background-color: rgb(215,63,15);
+    border: none;
+    border-radius: 20px;
+}
+.b3{
+    width: 40%;
+    height: 30px;
+    color: white;
+    background-color: rgb(23,121,131);
+    border: none;
+    border-radius: 20px;
+}
+.pink{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+}
+.code{
+    width:90%;
+    height: 330px;
+    border-radius: 10px;
+   position:relative;
+}
+.hen2{
+    width: 99%;
+    height: 510px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 auto;
+    /* background-color: aquamarine;   */
+    margin-right: 5px;  
+}
+.ani2{
+    width: 20px;
+    height: 100px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    gap:5px;
+}
+.abi9{
+    width: 80%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: aliceblue; */
+}
+.abi9:hover .abi11{
+    opacity: 0;
+    transition: 1s;
+}
+.abi10{
+    width: 100%;
+    height: 320px;
+    border-radius: 8px;
+    position: relative;
+}
+.abi11{
+    width: 20%;
+    height: 320px;
+    border-radius: 8px;
+    position: absolute;
+}
+.r-5{
+    width: 120%;
+    height:25%;
+    color:white;
+    background-color:white;
+    border-radius: 60% 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -170%;
+    left: 150px;
+}
+.mega{
+    width: 100%;
+    height: 350px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+.abi1:hover .ani1{
+    opacity: 0;
+    transition:1s;
+}
+.abi1:hover .b1{
+    opacity: 0;
+    transition:1s;
+}
+.abi6:hover .ani1{
+    opacity: 0;
+    transition:1s;
+}
+.abi6:hover .b1{
+    opacity: 0;
+    transition:1s;
+}
+.hen2:hover .ani2{
+    opacity: 0;
+    transition:1s;
+}
+.hen2:hover .b1{
+    opacity: 0;
+    transition:1s;
+}
+.hen3{
+    color:#9C6D3A;
+}
+.star1{
+    color: #948275;
+}
+.a2{
+    width: 100%;
+    height: 400px;
+    
+}
+.praven1{
+    width: 80%;
+    height: 50px;
+    /* background-color: azure; */
+    display: flex;
+    align-items: center;
+    /* font-size: 1px; */
+}
+@media(max-width:1200px){
+    .box{
+        width: 100vw;
+        height: 50vh;
+    }
+    .image3{
+        width:100%;
+        height: 250px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .child1{
+        width: 80%;
+        height: 150px;
+    }
+    .image5{
+        margin-top: 30%;
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .child8{
+        width: 60vh;
+    }
+    .child9{
+        width: 60vh;
+    }
+    .n2{
+        width: 100%;
+        height: 100%;
+        gap: 20px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .b1{
+        margin-top:30%;
+    }
+    .p1{
+        width: 100vw;
+        height: 30vh;
+    }
+    .p2{
+        width: 50vh;
+        height: 250px;
+    }
+    .p4{
+        width:90%;
+        height: 250px;
+    }
+    .n5{
+        width: 90%;
+        height: 750px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .foot1{
+        width: 100%;
+        height: 150px;
+    }
+    .r-4{
+        left:10%;
+    }
+}
+@media(max-width:600px){
+    .icon{
+        width: 100vw;
+        height: 60px;
+    }
+    .call{
+        width:40vw;
+        height: 50px;
+        font-size: 7px;
+    }
+    .btn{
+        
+    }
+    .art1{
+        width:50%;
+        height:30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .art2{
+        width:40%;
+        height:30px;
+        font-size: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .heart{
+        width: 29%;
+        height: 50px;
+        font-size: 6px;
+    }
+    .image{
+        width:25%;
+        height: 20px;
+    }
+    .child{
+        width: 100%;
+    }
+    .parent{
+        width: 53%;
+        font-size: 8px;
+        justify-content: center;
+        gap: 3px;
+    }
+    .element{
+        width:15%;
+        font-size: 8px;
+    }
+    .box{
+        width:100vw;
+        height: 250px;
+    }
+    .p{
+        width: 100vw;
+        height: 200px;
+        margin-right:5%;
+    }
+    .btn{
+        width: 100%;
+        height: 90px;
+    }
+    .image2{
+        width: 90%;
+        height:250px;
+    }
+    .image3{
+        width:100vw;
+        height: 650px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .abi{
+        width:90%;
+        height: 950px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .abi3{
+        width: 40%;
+    }
+    .b1{
+        width: 35%;
+        margin-top:60%;
+        column-gap: 5%;
+    }
+    .hen{
+        width:90%;
+        height: 950px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .abi8{
+        width: 40%;
+    }
+    .b1{
+        width: 35%;
+        margin-top:60%;
+        column-gap: 5%;
+    }
+    .child7{
+        width: 45%;
+    }
+    .box1{
+        width: 70%;
+        height: 250px;
+    }
+    .child8{
+        width: 80%;
+        height: 200px;
+        display: flex;
+        justify-content:space-evenly ;
+    }
+    .box2{
+        width: 70%;
+        height: 250px;
+        margin-right: 5%;
+    }
+    .btn2{
+        width: 30%;
+        height: 50px;
+    }
+    .hen2{
+        width:90%;
+        height: 950px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .abi11{
+        width: 40%;
+    }
+    .b1{
+        width: 35%;
+        margin-top:50%;
+        column-gap: 5%;
+    }
+    .h1{
+        font-size: 20px;
+    }
+    .h5{
+        font-size: 10px;
+    }
+    .p1{
+        width:100%;
+        height: 350px;
+    }
+    .btn2{
+        width: 50%;
+        height: 40px;
+    }
+    .p2{
+        width: 80vw;
+        height: 200px;
+        /* background-color: aqua; */
+    }
+    .p3{
+        width: 100%;
+        height: 100px;
+        font-size: xx-small;
+    }
+    .p4{
+        width:100%;
+        height: 250px;
+    }
+    .a1{
+        width:100%;
+        height: 250px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .a2{
+        width: 100%;
+        height: 950px;
+    }
+    .foot3{
+        height: 300px;
+    }
+    .foot1{
+        width: 100%;
+        font-size: 8.5px;
+    }
+    .foot6{
+        font-size: 10px;
+    }
+    .foot7{
+        font-size: 10px;
+    }
+    .mega{
+        font-size: 10px;
+    }
+    .f1{
+        width: 25%;
+        height: 25px;
+    }
+    .foot8{
+        font-size: xx-small;
+    }
+    .clr2{
+        width: 50%;
+    }
+}
